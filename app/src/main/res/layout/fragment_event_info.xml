@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.EventRsvp.EventInfoFragment"
+    android:background="@color/colorGrey"
+    android:layout_marginBottom="57dp">
+
+    <include layout="@layout/progress" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGrey">
+
+            <LinearLayout
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="0dp"
+                android:background="@android:color/transparent"
+                android:layout_marginBottom="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imageEvent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="51dp"
+                        android:layout_height="58dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="16dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:background="@color/colorWhite">
+
+                            <TextView
+                                android:text="19"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/txt_day"
+                                android:textColor="@color/colorEventDate"
+                                android:textSize="24sp"
+                                android:gravity="center" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp"
+                            android:background="@color/colorRedAusPost">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/txt_month"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="11sp"
+                                android:gravity="center"
+                                android:textStyle="normal|bold" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="25dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="@string/loading"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_event_name"
+                            android:textSize="24sp"
+                            android:textColor="@color/colorText"
+                            android:maxLines="2"
+                            android:lines="2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            app:srcCompat="@drawable/clock"
+                            android:id="@+id/clock"
+                            android:layout_gravity="center"
+                            android:layout_width="19dp"
+                            android:layout_height="19dp" />
+
+                        <TextView
+                            fontPath="fonts/Roboto-Medium.ttf"
+                            android:text="@string/loading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_time_name"
+                            android:textColor="@color/colorProfileSubtitle"
+                            android:typeface="normal"
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            app:srcCompat="@drawable/calendar"
+                            android:id="@+id/calendar"
+                            android:layout_gravity="center"
+                            android:layout_width="19dp"
+                            android:layout_height="19dp" />
+
+                        <TextView
+                            fontPath="fonts/Roboto-Medium.ttf"
+                            android:text="@string/loading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_calendar_name"
+                            android:textColor="@color/colorProfileSubtitle"
+                            android:typeface="normal"
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            app:srcCompat="@drawable/gps"
+                            android:id="@+id/location"
+                            android:layout_gravity="center"
+                            android:layout_width="19dp"
+                            android:layout_height="19dp" />
+
+                        <TextView
+                            fontPath="fonts/Roboto-Medium.ttf"
+                            android:text="@string/loading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_location_name"
+                            android:textColor="@color/colorProfileSubtitle"
+                            android:typeface="normal"
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:background="@color/colorRedAusPost"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="23dp">
+
+                <Button
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:background="@drawable/background_button_red"
+                    android:duplicateParentState="true"
+                    android:layout_width="wrap_content"
+                    android:text="@string/event.info.add.calendar"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:id="@+id/btn_add_calendar"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="25dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/calendar_white"
+                    android:layout_height="54dp"
+                    android:paddingRight="50dp"
+                    android:paddingLeft="50dp" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorWhite">
+
+                <com.conducthq.auspost.helper.ExpandableContentView
+                    android:id="@+id/eventInformation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorEventLine"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <com.conducthq.auspost.helper.ExpandableContentView
+                    android:id="@+id/gettingThere"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorEventLine"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <com.conducthq.auspost.helper.ExpandableContentView
+                    android:id="@+id/bring"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorEventLine"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <com.conducthq.auspost.helper.ExpandableContentView
+                    android:id="@+id/accommodation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorEventLine"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <LinearLayout
+                    android:id="@+id/faq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="24dp"
+                    android:background="@color/colorWhite">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/event.info.faq"
+                        android:textColor="@color/colorText"
+                        android:textSize="18sp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/arrow_next"
+                        android:tint="@color/colorRedAusPost"
+                        android:foregroundGravity="center"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

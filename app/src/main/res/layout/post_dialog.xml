@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="320dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edit_text"
+            fontPath="fonts/Roboto-Regular.ttf"
+            android:layout_width="match_parent"
+            android:hint="@string/post_hint"
+            android:inputType="text|textMultiLine"
+            android:paddingLeft="18dp"
+            android:paddingTop="12dp"
+            android:paddingRight="18dp"
+            android:paddingBottom="12dp"
+            android:background="@android:color/transparent"
+            android:textSize="14sp"
+            android:textColor="@color/colorProfileSubtitle"
+            android:gravity="top"
+            android:layout_height="120dp" />
+
+        <TextView
+            fontPath="fonts/APLetter-Medium.ttf"
+            android:text="Post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_post"
+            android:gravity="right"
+            android:textColor="@color/colorRedAusPost"
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/progress" />
+</RelativeLayout>

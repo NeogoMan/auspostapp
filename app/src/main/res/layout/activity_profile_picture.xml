@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/wrapperBottomPic">
+
+        <FrameLayout
+            android:id="@+id/camera_preview"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+        <com.conducthq.auspost.helper.CircleOverlayView
+            android:id="@+id/circleOverlay"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:background="@drawable/circle_camera"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            app:civ_border_color="@color/colorWhite"
+            app:civ_border_width="10dp"
+            app:civ_shadow="false"
+            app:civ_shadow_radius="5"
+            app:civ_shadow_color="@color/colorTextOpacity"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wrapperBottomPic"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorGrey"
+            android:id="@+id/top_frag"
+            android:layout_height="74dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_below="@+id/top_frag"
+            android:id="@+id/bottom_frag"
+            android:layout_height="70dp"/>
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/camera"
+            android:id="@+id/camera"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_below="@+id/camera"
+            android:padding="16dp"
+            android:id="@+id/gallery"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_picture"/>
+
+            <TextView
+                android:text="@string/profile_pic_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:padding="6dp"
+                android:textColor="@color/colorText" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

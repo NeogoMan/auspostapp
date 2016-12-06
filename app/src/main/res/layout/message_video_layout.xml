@@ -1,0 +1,86 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginRight="11dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorEventLine"
+        android:layout_marginBottom="12dp"
+        android:layout_height="1dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/videoHolderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            app:srcCompat="@drawable/play"
+            android:id="@+id/imageView3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="75dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="78dp"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="2">
+
+            <TextView
+                fontPath="fonts/APLetter-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_video_title"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:lines="1"
+                android:maxLength="25"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:scrollHorizontally="true" />
+
+            <TextView
+                fontPath="fonts/APLetter-Bold.ttf"
+                android:text="@string/message_video_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textSize="10sp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/message_video_logo"
+            android:id="@+id/imageView5"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="18dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorEventLine"
+        android:layout_marginTop="12dp"
+        android:layout_height="1dp">
+
+    </FrameLayout>
+
+</LinearLayout>

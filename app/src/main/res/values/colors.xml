@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGrey">#f3f1ee</color>
+    <color name="colorGreyDark">#d3d3d3</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorText">#231f20</color>
+    <color name="colorTextOpacity">#80231f20</color>
+    <color name="colorRedAusPost">#dc1928</color>
+    <color name="colorGreenSuccess">#91bd6b</color>
+    <color name="colorProfileTitle">#231f20</color>
+    <color name="colorProfileSubtitle">#5b504c</color>
+    <color name="colorEventDate">#464646</color>
+    <color name="colorEventLine">#32979797</color>
+    <color name="colorShadow">#32231f20</color>
+    <color name="colorInactiveMenu">#807271</color>
+    <color name="colorLikeCounterInactive">#a79a9a</color>
+    <color name="colorIncorrectQuestion">#e56b5b</color>
+    <color name="colorCorrectQuestion">#00e5b7</color>
+    <color name="colorRedButtonDisable">#20dc1928</color>
+</resources>

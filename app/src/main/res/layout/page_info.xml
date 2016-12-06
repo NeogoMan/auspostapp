@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/achievement_video_info"
+                android:layout_width="match_parent"
+                android:layout_height="126dp">
+
+                <ImageView
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    app:srcCompat="@drawable/play"
+                    android:id="@+id/imageView3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="75dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="193dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="78dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_weight="2">
+
+                    <TextView
+                        fontPath="fonts/APLetter-Regular.ttf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/message_video_title"
+                        android:textSize="15sp"
+                        android:textColor="@android:color/white"
+                        android:maxLines="1"
+                        android:lines="1"
+                        android:maxLength="25"
+                        android:ellipsize="end"
+                        android:scrollHorizontally="true" />
+
+                    <TextView
+                        fontPath="fonts/APLetter-Bold.ttf"
+                        android:text="@string/message_video_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView12"
+                        android:textSize="10sp"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    app:srcCompat="@drawable/message_video_logo"
+                    android:id="@+id/imageView5"
+                    android:layout_marginTop="13dp"
+                    android:layout_gravity="top|right"
+                    android:layout_marginRight="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/infoMaterial"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:padding="25dp"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_height="68dp"
+                    app:srcCompat="@drawable/info_related_icon"
+                    android:layout_width="68dp" />
+
+                <TextView
+                    fontPath="fonts/APLetter-Medium.ttf"
+                    android:text="@string/achievement.information.info_related"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="17sp"
+                    android:lines="2"
+                    android:textColor="@color/colorText" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/arrow_next"
+                    android:id="@+id/btn_reading"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/infoFaqs"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:padding="25dp"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_height="68dp"
+                    app:srcCompat="@drawable/info_faq_icon"
+                    android:id="@+id/imageView6"
+                    android:layout_width="68dp" />
+
+                <TextView
+                    fontPath="fonts/APLetter-Medium.ttf"
+                    android:text="@string/achievement.information.info_faq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="17sp"
+                    android:lines="1"
+                    android:textColor="@color/colorText" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/arrow_next"
+                    android:id="@+id/btn_faq"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/infoKey"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:padding="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:layout_height="68dp"
+                    app:srcCompat="@drawable/info_key_icon"
+                    android:layout_width="68dp" />
+
+                <TextView
+                    fontPath="fonts/APLetter-Medium.ttf"
+                    android:text="@string/achievement.information.info_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="17sp"
+                    android:lines="2"
+                    android:textColor="@color/colorText" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/arrow_next"
+                    android:id="@+id/btn_key"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

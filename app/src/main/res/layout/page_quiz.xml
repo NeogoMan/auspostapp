@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/safety_quiz_icon"
+        android:id="@+id/imageView7"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:text="@string/quiz.info.title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quizTitle"
+        android:textSize="24sp"
+        android:textColor="@color/colorText"
+        android:gravity="center" />
+
+    <TextView
+        android:text="@string/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_safety_quiz"
+        android:lines="4"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:textSize="15sp"
+        android:layout_margin="36dp" />
+</LinearLayout>

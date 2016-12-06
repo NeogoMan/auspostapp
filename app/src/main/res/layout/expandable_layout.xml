@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:id="@+id/expandContent"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iconExpandable"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:adjustViewBounds="false"
+            android:padding="4dp"
+            android:src="@drawable/expand"
+            android:cropToPadding="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/headerExpandableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/expandContent"
+        android:padding="4dp"
+        android:gravity="center_vertical"
+        android:text="@string/event.info.event.information"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"/>
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ael_expanded="false"
+        android:layout_below="@id/headerExpandableLayout"
+        app:ael_duration="100"
+        app:ael_orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contentExpand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/loading"/>
+
+            <LinearLayout
+                android:id="@+id/btn_link"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_button_white"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="#0000"
+                    android:scaleType="center"
+                    android:src="@drawable/open_link"/>
+
+                <TextView
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:id="@+id/link_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRedAusPost"
+                    android:clickable="false"
+                    android:textAllCaps="false"
+                    android:text="@string/event.info.external.link" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+</RelativeLayout>

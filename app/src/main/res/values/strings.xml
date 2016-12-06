@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Auspost Companion App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="intro_screen_title">WATCH VIDEO</string>
+    <string name="loading">Loading&#8230;</string>
+
+    <string name="intro_screen_subtitle">Introduction to the One Team Immersion Day</string>
+    <string name="intro_button">Get Started</string>
+    <string name="pin_title">Input your PIN</string>
+    <string name="pin_subtitle">Please input your unique PIN included on the previous email.</string>
+    <string name="pin_invalid">Invalid PIN</string>
+    <string name="pin_success">PIN Successful</string>
+    <string name="pin_error_login">Pin must be 5 digits</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="profile_title">Edit Profile</string>
+    <string name="profile_title_register">Complete Registration</string>
+    <string name="profile_main_title">Thanks %1$s.\nWe just have a few more\nquestions to complete\nyour profile</string>
+    <string name="profile_subtitle">Please complete the registration below</string>
+    <string name="profile_edit_photo">Edit your photo</string>
+    <string name="profile_name">First Name</string>
+    <string name="profile_last_name">Last Name</string>
+    <string name="profile_email">Email Address</string>
+    <string name="profile_phone">Mobile No.</string>
+    <string name="profile_dietary_requirements">Dietary requirements</string>
+    <string name="profile_button">Save changes</string>
+    <string name="profile_register">Register</string>
+    <string name="profile_add_photo">Add your photo</string>
+    <string name="profile_pic_title">Add your profile picture</string>
+    <string name="profile_pic_gallery">Add from photo library</string>
+    <string name="event_rsvp_name">Thanks, %1$s.</string>
+    <string name="event_rsvp_subtitle">The details of the event are below</string>
+    <string name="event_rsvp_button">Yes, I can attend</string>
+    <string name="event_rsvp_cant_attend">Sorry, I cannot make this event</string>
+    <string name="event_rsvp_view_map">View Map</string>
+    <string name="map_title">Map</string>
+    <string name="google_android_map_api_key">AIzaSyAlI98bEdXol6YzDph9dKKbmuzyFQnsI3M</string>
+    <string name="map_button">Open in Maps</string>
+    <string name="map_google_maps_not_found">Google Maps not found</string>
+    <string name="event_rsvp_button_success">Success!</string>
+    <string name="notice_main_title">Please tell us why you cannot attend this event</string>
+    <string name="notice_subtitle">We will do our best to place you into another\nsuitable event.</string>
+    <string name="notice_hint">Sorry, I can\'t attend because....</string>
+    <string name="notice_title">Notice</string>
+    <string name="notice_empty_field">You must provide a reason to not attend to the event</string>
+    <string name="notice_contact_message">Thanks. Please contact Bec Martin on xxxx xxxxx to organise an alternative event.</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="fab_button_behaviour">com.conducthq.auspost.helper.ScrollAwareFABBehavior</string>
+    <string name="message_joining_welcome">Welcome</string>
+    <string name="message_joining_event">to the event</string>
+    <string name="message_comment_action">Commented</string>
+    <string name="message_video_title">WATCH VIDEO</string>
+    <string name="message_achievement_gained">gained the</string>
+    <string name="post_hint">Add a comment....</string>
+    <string name="post_empty_field">Comment can\'t be blank</string>
+
+    <string name="video.skip">Skip</string>
+
+    <string name="event.info.external.link">External Link here</string>
+    <string name="event.info.title">Event Information</string>
+    <string name="event.info.add.calendar">Add to Calendar</string>
+    <string name="event.info.event.information">Event information</string>
+    <string name="event.info.getting.there">Getting there</string>
+    <string name="event.info.what.to.bring">What to bring</string>
+    <string name="event.info.accommodation">Accommodation</string>
+    <string name="event.info.faq">FAQ</string>
+
+    <string name="message.error.camera">Error open camera</string>
+    <string name="message.error.gallery">Error open gallery</string>
+    <string name="message.error.crop">Error crop picture</string>
+    <string name="message.error.email">Impossible build email</string>
+    <string name="message.error.phone">Impossible do call</string>
+
+    <string name="more.title">More</string>
+    <string name="more.give.feedback">Give Feedback</string>
+    <string name="more.contact.information">Contact Information</string>
+    <string name="more.notification">Notifications</string>
+
+    <string name="feedback.title">Feedback</string>
+    <string name="feedback.first.question">How would you rate this app?</string>
+    <string name="feedback.second.question">Any further comments about the app?</string>
+    <string name="feedback.hint.answer">Type your message here</string>
+    <string name="feedback.button">Submit</string>
+    <string name="feedback.completed">Thank you for your feedback.</string>
+
+
+    <string name="contact.send.email">Send email by…</string>
+    <string name="contact.information.title">Contact Information</string>
+    <string name="contact.team.contact">Team Contact</string>
+    <string name="contact.button.call">Call now</string>
+    <string name="contact.phone">1300 123 456</string>
+    <string name="contact.button.email">Email us</string>
+    <string name="contact.email">support@auspot.com.au</string>
+
+
+    <string name="profile.view.title">Your profile</string>
+    <string name="profile.view.email">Email Address</string>
+    <string name="profile.view.mobile">Mobile No.</string>
+    <string name="profile.view.dietary.requirements">Dietary Requirements</string>
+    <string name="message_error_fetch">Error fetching messages</string>
+    <string name="press_back_home">Press the back button once again to close the application.</string>
+
+    <string name="badges.title">Badges</string>
+    <string name="badges.unlocked.title">Unlock these sections by scanning the codes at the event</string>
+    <string name="badges.unlocked.message">Look for the markers at the event to collect them to complete the achievements.</string>
+    <string name="badges.unlocked.button">Ok, got it.</string>
+
+    <string name="scan.title">Scan to unlock</string>
+    <string name="scan.not">Can\'t scan? Input code manually</string>
+    <string name="scan.input.title">Unlock</string>
+    <string name="scan.input.message">Input your code</string>
+    <string name="scan.qr.invalid">Invalid Code QR</string>
+    <string name="scan.qr.success">Code QR Successful</string>
+    <string name="scan.qr.error">Code QR must be 5 digits</string>
+
+    <string name="achievement.title">Achievement</string>
+    <string name="achievement.intro">Intro</string>
+    <string name="achievement.intro.button">Yes, I can continue</string>
+    <string name="achievement.quiz">Quiz</string>
+    <string name="achievement.quiz.start">Start quiz</string>
+    <string name="achievement.summary">Summary</string>
+    <string name="achievement.information">Information</string>
+    <string name="achievement.information.button">Continue to the quiz</string>
+    <string name="achievement.information.info_related">Informational\nReading Material</string>
+    <string name="achievement.information.info_faq">FAQs</string>
+    <string name="achievement.information.info_key">Key Learning\nOutcomes</string>
+    <string name="achievement.information.info_related.title">Informational Reading Material</string>
+    <string name="achievement.information.info_faq.title">FAQ</string>
+    <string name="achievement.information.info_key.title">Key Learning Outcomes</string>
+
+    <string name="quiz.title">Pop Quiz</string>
+    <string name="quiz.question">Question %1$d to %2$d</string>
+    <string name="quiz.button">Submit</string>
+    <string name="quiz.info.title">Safety Quiz</string>
+    <string name="quiz.question.incorrect.button">Try again</string>
+    <string name="quiz.question.incorrect.title">Incorrect</string>
+    <string name="quiz.question.incorrect.message">That\'s not quite right, try again.</string>
+    <string name="quiz.question.correct.title">Correct!</string>
+    <string name="quiz.question.completed">Quiz completed!</string>
+    <string name="quiz.question.completed.message">You\'ve completed all the question\nwith the correct answer!</string>
+    <string name="quiz.question.correct.message">You certainly know how to treat postage packages with care. great work!</string>
+    <string name="quiz.question.correct.button">Next</string>
+    <string name="no_camera">No camera found on this device</string>
+    <string name="notice_button">Submit</string>
+    <string name="contact_team_contact_help">Help</string>
+    <string name="message_error_camera_front">No front camera found</string>
+    <string name="message_error_write_storage">Can\'t write local storage</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+</resources>

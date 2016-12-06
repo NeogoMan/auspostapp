@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:gravity="center"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact.team.contact"
+                android:textColor="@color/colorText"
+                android:textSize="24sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact.phone"
+                android:textColor="@color/colorRedAusPost"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:padding="16dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/btn_call"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_button_red"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="#0000"
+                    android:scaleType="center"
+                    android:src="@drawable/call"/>
+
+                <TextView
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:clickable="false"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:text="@string/contact.button.call" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorEventLine"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:gravity="center"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact.email"
+                android:textColor="@color/colorText"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:padding="16dp"/>
+
+            <LinearLayout
+                android:id="@+id/btn_email"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_button_red"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="#0000"
+                    android:scaleType="center"
+                    android:src="@drawable/email"/>
+
+                <TextView
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:clickable="false"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:text="@string/contact.button.email" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

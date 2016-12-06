@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/achievementPic"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            app:civ_border_color="@color/colorRedAusPost"
+            app:civ_border_width="0dp"
+            app:civ_shadow="false"
+            android:layout_centerInParent="true"
+            android:src="@drawable/achievement" />
+
+        <ImageView
+            android:id="@+id/status"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerHorizontal="true"
+            android:padding="8dp"
+            android:background="@drawable/circle_status_white"
+            android:layout_alignTop="@+id/achievementPic"
+            android:layout_alignRight="@+id/achievementPic"
+            android:src="@drawable/completed" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/achievementTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/colorText"
+        android:text="Safety"/>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="11dp"
+    android:layout_marginRight="11dp"
+    android:layout_marginTop="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="18dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/achievementPic"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:civ_border_color="@color/colorRedAusPost"
+                app:civ_border_width="0dp"
+                app:civ_shadow="false"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/achievement"
+                android:layout_marginBottom="10dp" />
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/principalPic"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:civ_border_color="@color/colorWhite"
+                app:civ_border_width="2dp"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="5"
+                app:civ_shadow_color="@color/colorTextOpacity"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/no_profile_pic"
+                android:layout_alignParentStart="true"
+                android:layout_alignBottom="@+id/achievementPic"
+                android:layout_marginBottom="-10dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_time"
+                android:textSize="10sp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    fontPath="fonts/Roboto-Regular.ttf"
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_participant"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorRedAusPost"
+                    android:maxLength="15"
+                    android:lines="1"
+                    android:ellipsize="marquee"
+                    android:scrollHorizontally="true" />
+
+                <TextView
+                    fontPath="fonts/Roboto-Regular.ttf"
+                    android:text="@string/message_achievement_gained"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView14"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorText" />
+            </LinearLayout>
+
+            <TextView
+                fontPath="fonts/Roboto-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_achievement_name"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="@color/colorText" />
+
+        </LinearLayout>
+
+        <include layout="@layout/message_like"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

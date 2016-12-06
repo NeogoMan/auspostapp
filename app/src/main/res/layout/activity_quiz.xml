@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGrey"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/questionTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRedAusPost"
+                    android:textSize="18sp"
+                    android:text="@string/quiz.question"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:id="@+id/questionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:text="If you are unsure if a package is fragile or not, how do you treat the delivery?"
+                    android:layout_marginBottom="10dp" />
+
+            </LinearLayout>
+
+
+            <com.conducthq.auspost.helper.CustomViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/quizCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/page_quiz_completed"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:text="@string/quiz.button"
+        android:id="@+id/btn_swipe"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:background="@drawable/background_button_red_disable"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="8dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="8dp" />
+
+
+</LinearLayout>

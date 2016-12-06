@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_up_sign_in_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/welcome_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0.1dp"
+        android:background="#000"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bSignIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textColor="#f1ae1f"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bSignUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:textColor="#f1ae1f"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_above="@+id/app_name_text_view_n"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/app_name_text_view_n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/app_name_text_view_prime"
+        android:text="N"
+        android:textColor="#030303"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/app_name_text_view_prime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/app_name_text_view_n"
+        android:layout_alignBottom="@+id/app_name_text_view_n"
+        android:layout_alignStart="@+id/app_logo"
+        android:text="Prime"
+        android:textColor="#e9ad07"
+        android:textSize="56sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

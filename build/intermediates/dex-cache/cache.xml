@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_251e29f8f681f101455c92ce375c34ca0180f2bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_2b83e38ffe40ffffc4d171c18d6ed6543c60e8dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_f5ece5be62a5f1e8cb731acce7916a057cd6c80c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/2.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="32534a05122d0c535cc8b885e45b1e7ce3b0f03e">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.roughike-bottom-bar-2.0.2_502f81a06594f391dd2548eb49b1d23c1891cf4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_960e906e606a0b342936184fd389de6b539f4acf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/uk.co.chrisjenx-calligraphy-2.2.0_820485eb585e3d7c7a6fb710100954263033c133.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/core-3.2.1_a7bb450fdc8dd7ec75f29e628f2706c6bd5ca998.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.mikhaellopez/circularimageview/3.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8340f8c17337c864648c13abe1416d34c80ec14">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.mikhaellopez-circularimageview-3.0.2_0d8671aad495830ea64543d8c0db4c8fdcc85494.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6230ff6888b21611b3cda1fed1d1a5d4ab08a2c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_29720fce6bb72fe37f03c57706f10421d9aff6b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c9b1a2e8c13f81638d1927f8084a2ad06d12fcf">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.1_4bbc1d4954e538fb580187b8fa1517adf521b524.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/glide-3.7.0_e37c10e7c747da2b195f597e34ac4aeff9785b16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_dc9a336a2469892aae77da499e1daf9308e441ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_7dc5353efe3e10da40fcbca418470533e563c7ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/gson-2.7_998ce8c22a1aaaf6287230a79a5099bc0f3e730b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.wang.avi/library/2.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e699699fae0092703de1d02b217f43803d0f7e0a">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.wang.avi-library-2.1.3_a481c8e1df5d81541abb465481285bd6cc81263b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/jp.wasabeef/glide-transformations/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df451c6f391e3e32022fc964ed87bd57a5869128">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/jp.wasabeef-glide-transformations-2.0.1_dbb68fdd690f5406f7050bec3e750d630e821a60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_674cb1ebd886d21648d651dce4106850d05838c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.bignerdranch.android/simple-item-decoration/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d1a62429715305b2b05a9036ec3a7d7023466313">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.bignerdranch.android-simple-item-decoration-1.0.0_e5a4b4fd9024506079672cdc203317d8b5716982.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/AuspotApp/crop-image-lib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="782750ca5b616806a9b593c48d3a4ad906a7ca0f">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/AuspotApp-crop-image-lib-unspecified_451d6ef1fb11af22fae780efa04f8e3fd665397f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_dd44bcc86f752d697921ff5ff20829386e5b9b3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_51a6455f67a3ff88c192869b4fc4e0d84e1fc0e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_7d3acad44e1715c9600261a6d35150833d224e67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_b124d35fb18b541930f1f430fa7455be0e41590c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_18a7308fa05dfd2aecc7970bff4dd38861974793.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a61005619e43f203768ff3f224137def6f029e50">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.0_8b0faa36a9244bce7017387ece0b92cccfde8b96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cf60a8cd2f896314e40b2f1a9788e91e228c3671">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.0_6dd0c72dcd371d9401b5bc23442267e7e73077e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_c7881e629f4e3d09e26f512724017e552af1c068.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_bf32c51b68c2cb2f047555e5e447905c8be3d29f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/rxjava-1.1.5_be388d9c4e339c200e00ca772faf413290669784.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce6e6e59212db0893fc36e5b579cf319a84aade8">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.0_e2ebeae036b9a75373e3f102b24c0e8efc98eeac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_670fffd6b5780adad7667afa2c4d650a533175e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_18c9c0f7a47959d7113406fac53154a0795c3f61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_2a2d9f0934213f80c35c01a6ea063125e792eb35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_b51edea20ff4716af9a3bd85b1377b19051ebabc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_9e978320bc63b8e2f06de321637292c219f392cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="444a220fadbdf260b3aa47c6e858c5d1e645170f">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.0.0_715546334cbc5bfb97a9b26957d73639012d5f98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_a4f0da38184fe577a7dd08ff2610cc66e3fc54d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-10.0.1_d801584f1ba4ecaad53ba771350e6205f7e14c9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.github.aakira/expandable-layout/1.6.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3cef25b344d6893e5e2d9b1ae38d180955e9d3ef">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.github.aakira-expandable-layout-1.6.0_f7801edb6fedb6fcaa8a9a398d83e322f9d9cdc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_66dbc7a8debf0af54032e0bbbe424ef9cdb2414a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.dlazaro66.qrcodereaderview/qrcodereaderview/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6610b802e93de87301d1241bf4131509d959790">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.dlazaro66.qrcodereaderview-qrcodereaderview-2.0.1_867d04fde4b137e0c30e761e246942d762b47182.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_d88f847dfb5162682a91f167c9a2cceceedf3627.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.4.1_42ae59ac6bb709f66800c62bbda27281bcd1526a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_7d50c2d5f3659c20afb6cc7170aa3ce641bcd814.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/okio-1.9.0_58b343d4fe215e00e21491d15e6a5bc7a06d17fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_aded4d503be48ff9a58d8ef924b75bc3b358129b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_3e5b0ba4df51dba509bbdbea8c1d5360cbf97790.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_4ef1866ec50ab7f5ba566a12b35f4caa0d9a6da5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Documents/AuspotApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7ed3fd9d5a9687980dac6c504abd91ad3dfa238">
+        <dex dex="/Users/mac/Documents/AuspotApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.0_a6d10f1f81ecee3e65b31a61f1c1ca6677b5a7ae.jar" />
+    </item>
+
+</items>

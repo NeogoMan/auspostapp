@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCorrectQuestion"
+        android:layout_marginBottom="28dp"
+        android:paddingTop="28dp"
+        android:paddingRight="28dp"
+        android:paddingLeft="28dp">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/quiz_correct"
+            android:layout_gravity="bottom|center_horizontal" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz.question.correct.title"
+            android:gravity="start"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            fontPath="fonts/Roboto-Regular.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz.question.correct.message"
+            android:id="@+id/feedback_response"
+            android:gravity="start"
+            android:textColor="@color/colorProfileSubtitle"
+            android:textSize="15sp"
+            android:padding="10dp"/>
+
+        <Button
+            android:text="@string/quiz.question.correct.button"
+            android:id="@+id/btn_close"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:background="@drawable/background_button_red"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="15dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

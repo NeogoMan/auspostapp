@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/wrapperBottomPic">
+
+        <FrameLayout
+            android:id="@+id/wrapperQR"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_width="280dp"
+            android:layout_height="280dp"/>
+
+        <com.conducthq.auspost.helper.CircleOverlayView
+            android:id="@+id/circleOverlay"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:background="@drawable/circle_camera"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            app:civ_border_color="@color/colorWhite"
+            app:civ_border_width="10dp"
+            app:civ_shadow="false"
+            app:civ_shadow_radius="5"
+            app:civ_shadow_color="@color/colorTextOpacity"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wrapperBottomPic"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorGrey"
+            android:id="@+id/top_frag"
+            android:layout_height="74dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_below="@+id/top_frag"
+            android:id="@+id/bottom_frag"
+            android:layout_height="70dp"/>
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/qr_code"
+            android:id="@+id/qrScan"
+            android:padding="20dp"
+            android:background="@drawable/round_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp" />
+
+        <TextView
+            android:text="@string/scan.not"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputCode"
+            android:padding="22dp"
+            android:layout_below="@+id/qrScan"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorText" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/progress" />
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/colorWhite">
+
+
+    <LinearLayout
+        android:id="@+id/wrapperState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="42dp"
+        android:paddingRight="42dp">
+
+        <View
+            android:id="@+id/stateIntro"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/state_selected" />
+
+        <View
+            android:id="@+id/introToInfo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="2dp"
+            android:background="@color/colorGreyDark" />
+
+        <View
+            android:id="@+id/stateInfo"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/state_disable"/>
+
+        <View
+            android:id="@+id/infoToQuiz"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="2dp"
+            android:background="@color/colorGreyDark"/>
+
+        <View
+            android:id="@+id/stateQuiz"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/state_disable"/>
+
+        <View
+            android:id="@+id/quizToSummary"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="2dp"
+            android:background="@color/colorGreyDark"/>
+
+        <View
+            android:id="@+id/stateSummary"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/state_disable"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/wrapperState"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <TextView
+            android:id="@+id/lblIntro"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRedAusPost"
+            android:text="@string/achievement.intro"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lblInfo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGreyDark"
+            android:text="@string/achievement.information"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lblQuiz"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGreyDark"
+            android:text="@string/achievement.quiz"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lblSummary"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGreyDark"
+            android:text="@string/achievement.summary"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

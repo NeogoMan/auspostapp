@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey">
+
+    <FrameLayout
+        android:id="@+id/headerGreen"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorCorrectQuestion"
+        android:layout_marginBottom="28dp"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/quiz_completed"
+        android:layout_below="@+id/headerGreen"
+        android:layout_marginTop="-180dp"/>
+
+    <LinearLayout
+        android:layout_below="@+id/headerGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz.question.completed"
+            android:gravity="center"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            android:padding="16dp"/>
+
+        <TextView
+            fontPath="fonts/Roboto-Regular.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz.question.completed.message"
+            android:gravity="center"
+            android:textColor="@color/colorProfileSubtitle"
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

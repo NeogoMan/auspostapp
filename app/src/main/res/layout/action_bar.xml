@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            fontPath="fonts/APLetter-Medium.ttf"
+            android:id="@+id/action_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_centerInParent="true"
+            android:textSize="17sp"
+            android:textColor="@color/colorText" />
+
+        <ImageButton
+            android:layout_height="match_parent"
+            android:src="@drawable/close"
+            android:id="@+id/action_bar_close"
+            android:background="@android:color/transparent"
+            android:layout_alignParentEnd="true"
+            android:layout_width="90dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:paddingLeft="70dp"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:layout_height="match_parent"
+            android:src="@drawable/achievement_help"
+            android:id="@+id/action_bar_info"
+            android:background="@android:color/transparent"
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:layout_width="90dp"
+            android:layout_centerInParent="true"
+            android:paddingLeft="70dp"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:layout_height="match_parent"
+            android:src="@drawable/backarrow"
+            android:id="@+id/action_bar_back"
+            android:background="@android:color/transparent"
+            android:layout_alignParentStart="true"
+            android:layout_width="90dp"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:paddingRight="70dp"
+            android:tint="@color/colorRedAusPost"/>
+
+
+        <TextView
+            android:id="@+id/btnHelp"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="Help"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorRedAusPost"
+            android:background="@android:color/transparent"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/btnEdit"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="Edit"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/colorRedAusPost"
+            android:background="@android:color/transparent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:visibility="visible"/>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<tabs>
+    <tab
+        id="@+id/tab_dash"
+        icon="@drawable/ic_menu_dash"
+        title="Dash" />
+    <tab
+        id="@+id/tab_badges"
+        icon="@drawable/ic_menu_badge"
+        title="Badges" />
+    <tab
+        id="@+id/tab_event"
+        icon="@drawable/ic_menu_calendar"
+        title="Event Info" />
+
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/ic_menu_profile"
+        title="Profile" />
+
+    <tab
+        id="@+id/tab_more"
+        icon="@drawable/ic_menu_more"
+        title="More" />
+</tabs>

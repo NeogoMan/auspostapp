@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorGrey"
+            android:orientation="vertical">
+
+            <TextView
+                fontPath="fonts/Roboto-Medium.ttf"
+                android:id="@+id/top_code_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginTop="75dp"
+                android:text="@string/scan.input.message"
+                android:textColor="@color/colorText"
+                android:textSize="14sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:background="@color/colorGrey">
+
+                <EditText
+                    android:id="@+id/edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:cursorVisible="false"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="5"
+                    android:textAllCaps="true"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="37dp"
+                    android:background="@color/colorGrey"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/dig1"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordered_textview"
+                        android:gravity="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="24sp"
+                        android:textAllCaps="true"
+                        tools:text="1" />
+
+                    <TextView
+                        android:id="@+id/dig2"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordered_textview"
+                        android:gravity="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="24sp"
+                        android:textAllCaps="true"
+                        tools:text="2" />
+
+                    <TextView
+                        android:id="@+id/dig3"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordered_textview"
+                        android:gravity="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="24sp"
+                        android:textAllCaps="true"
+                        tools:text="3" />
+
+                    <TextView
+                        android:id="@+id/dig4"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordered_textview"
+                        android:gravity="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="24sp"
+                        android:textAllCaps="true"
+                        tools:text="4" />
+
+                    <TextView
+                        android:id="@+id/dig5"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordered_textview"
+                        android:gravity="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="24sp"
+                        android:textAllCaps="true"
+                        tools:text="5" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/status_pin_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="14dp"
+                    android:textSize="14sp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <include layout="@layout/progress" />
+
+    </RelativeLayout>
+
+</LinearLayout>
